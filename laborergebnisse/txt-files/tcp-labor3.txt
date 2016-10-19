@@ -1,0 +1,9 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2016-10-14 12:35 CEST
+Nmap scan report for is03.rnlabor.hdm-stuttgart.de (141.62.66.103)
+Host is up (0.00094s latency).
+PORT  STATE  SERVICE
+5/udp closed rje
+MAC Address: 80:C1:6E:E0:1B:2C (Hewlett Packard)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds

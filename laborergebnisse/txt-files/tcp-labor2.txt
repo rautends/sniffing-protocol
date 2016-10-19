@@ -1,0 +1,13 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2016-10-14 12:28 CEST
+Nmap scan report for is03.rnlabor.hdm-stuttgart.de (141.62.66.103)
+Host is up (0.013s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+80/tcp   open  http
+3128/tcp open  squid-http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.37 seconds
