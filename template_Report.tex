@@ -1,6 +1,7 @@
 \documentclass[a4paper]{report}
 
 \usepackage{graphicx}
+\usepackage[utf8]{inputenc}
 
 % Title Page
 \title{Protokoll -  Network Sniffing und Portscanning}
@@ -11,8 +12,13 @@
 
 \maketitle
 
-\chapter{Grundlagen des Network-Sniffing}
-Fuer unser Praktikum Network Security wird die Software Wireshark eingesetzt.
+\chapter{Intro}
+
+\section{Versuchsaufbau}
+Bei unserem Versuchsaufbau in unserem Labor wurde der bestehende Switch durch einen Hub ersetzt, um so alle Datenpakete aller Teilnehmer mitlesen/sniffen zu können.
+
+\section{Software}
+Wir verwenden für die uns bevorstehende Aufgabe das Betriebsystem Ubuntu und die Software Wireshark.
 
 \begin{figure}[htb]
 	\centering
@@ -21,6 +27,41 @@ Fuer unser Praktikum Network Security wird die Software Wireshark eingesetzt.
 	\label{fig:wiresharklogo}
 \end{figure}
 
+\chapter{Grundlagen des Network-Sniffing}
+
+\chapter{Aufgaben}
+
+\section{a.) Analyse von typischem Netzwerkverkehr}
+
+\subsection{Aufbauen einer TCP Verbindung}
+Bauen Sie eine TCP Verbindung zu einem Dienst (z.B. http(s), ftp, smb, ssh, telnet) ihrer Wahl auf und beschreiben sie den Ablauf des Verbindungsaufbau/Verbindungsabbau (Sequenzdiagramm).
+
+\subsection{Verbindungsversuch - gescholossener TCP Port}
+Was passiert bei einem Verbindungsversuch auf einem geschlossenen TCP Port
+(Sequenzdiagramm), z.B. telnet auf Port 161 (Befehl: telnet $<ip>$ 161).
+
+\subsection{Beobachtung - DNS Traffic}
+Sniffen Sie den DNS Traffic aus dem Netzwerkverkehr heraus, was beobachten Sie?
+
+\subsection{Filtern von nicht IP basiertem Traffic}
+Filtern Sie den nicht IP basierten Traffic heraus. Was bleibt nun noch übrig?
+
+
+\section{b.) Sniffing von Passwörtern}
+\subsection{Verbindung zu Telnet und FTP}
+Verbinden Sie sich mit anderen Telnet und FTP Servern, nutzen Sie den PC Ihres Nachbarn!
+\subsection{Passwort Sniffing}
+Versuchen Sie Passwörter und Benutzernamen anderer Benutzer, mitzusniffen. Filtern Sie gezielt die entsprechenden Pakete heraus.
+\subsection{Unterschied des übermittelten Passworts}
+Beschreiben Sie den Unterschied zwischen dem FTP und Telnet Protokoll bezüglich der Passwort Übermittlung.
+
+\section{c.) Portscanning / Nmap}
+\subsection{Scannen vom Labornetz}
+Scannen Sie das gesamte Labor Netz um aktive Systeme zu erkennen.
+\subsection{Genauere Untersuchung eines Rechners}
+Nehmen Sie einen Rechner genauer unter die Lupe und führen Sie einen detaillierten Portscan sowohl für TCP als auch für UDP Dienste durch.
+\subsection{Verschiedene Scanverfahren}
+Beobachten Sie die unterschiedlichen Scan-Varianten (Syn, Fin, Xmas, etc.) in Wireshark und analysieren Sie diese.
 
 \chapter{Unterschied - Hub / Switch}
 
