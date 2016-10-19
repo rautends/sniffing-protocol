@@ -1,0 +1,40 @@
+\documentclass[a4paper]{report}
+
+\usepackage{graphicx}
+
+% Title Page
+\title{Protokoll -  Network Sniffing und Portscanning}
+\author{Manuel Neufeld, Dennis Tobias Rautenberg}
+
+
+\begin{document}
+
+\maketitle
+
+\chapter{Grundlagen des Network-Sniffing}
+Fuer unser Praktikum Network Security wird die Software Wireshark eingesetzt.
+
+\begin{figure}[htb]
+	\centering
+		\includegraphics[width=0.10\textwidth]{wireshark-logo.png}
+	\caption{Wireshark Logo}
+	\label{fig:wiresharklogo}
+\end{figure}
+
+
+\chapter{Unterschied - Hub / Switch}
+
+\section{Hub}
+\begin{quote}
+Ein Hub ist ein Kopplungselement, das mehrere Hosts in einem Netzwerk miteinander verbindet. In einem Ethernet-Netzwerk, das auf der Stern-Topologie basiert dient ein Hub als Verteiler fuer die Datenpakete. Hubs arbeiten auf der Bituebertragungsschicht (Schicht 1) des OSI-Schichtenmodells und sind damit auf die reine Verteilfunktion beschraenkt.
+Ein Hub nimmt ein Datenpaket entgegen und sendet es an alle anderen Ports weiter. Das bedeutet, er broadcastet. Dadurch sind nicht nur alle Ports belegt, sondern auch alle Hosts. Sie bekommen alle Datenpakete zugeschickt, auch wenn sie nicht die Empfaenger sind. Fuer die Hosts bedeutet das auch, dass sie nur dann senden koennen, wenn der Hub gerade keine Datenpakete sendet. Sonst kommt es zu Kollisionen.\footnote{http://www.elektronik-kompendium.de/sites/net/1405161.htm} \end{quote}
+
+
+\section{Switch}
+\begin{quote}
+Ein Switch ist ein Kopplungselement, das mehrere Hosts in einem Netzwerk miteinander verbindet. In einem Ethernet-Netzwerk, das auf der Stern-Topologie basiert dient ein Switch als Verteiler fuer die Datenpakete.
+Die Funktion ist aehnlich einem Hub, mit dem Unterschied, das ein Switch direkte Verbindungen zwischen den angeschlossenen Geraeten schalten kann, sofern ihm die Ports der Datenpaket-Empfaenger bekannt sind. Wenn nicht, dann broadcastet der Switch die Datenpakete an alle Ports. Wenn die Antwortpakete von den Empfaengern zurueck kommen, dann merkt sich der Switch die MAC-Adressen der Datenpakete und den dazugehoerigen Port und sendet die Datenpakete dann nur noch dorthin.
+Waehrend ein Hub die Bandbreite des Netzwerks limitiert, steht der Verbindung zwischen zwei Hosts, die volle Bandbreite der Ende-zu-Ende-Netzwerk-Verbindung zur Verfuegung.\footnote{http://www.elektronik-kompendium.de/sites/net/0811021.htm}
+\end{quote}
+
+\end{document}          
