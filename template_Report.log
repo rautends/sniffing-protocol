@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.2)  19 OCT 2016 13:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.2)  19 OCT 2016 14:26
 entering extended mode
 **template_Report.tex
 (C:\Users\Dennis\Documents\sniffing-protocoll\template_Report.tex
@@ -280,7 +280,29 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(C:\Users\Dennis\Documents\sniffing-protocoll\template_Report.aux)
+(C:\Users\Dennis\Documents\sniffing-protocoll\template_Report.aux
+
+LaTeX Warning: Label `fig:tcpconnection' multiply defined.
+
+
+LaTeX Warning: Label `fig:tcpconnection' multiply defined.
+
+
+LaTeX Warning: Label `fig:capturingwireshark1' multiply defined.
+
+
+LaTeX Warning: Label `fig:capturingwireshark1' multiply defined.
+
+
+LaTeX Warning: Label `fig:capturingwireshark1' multiply defined.
+
+
+LaTeX Warning: Label `fig:capturingwireshark1' multiply defined.
+
+
+LaTeX Warning: Label `fig:capturingwireshark1' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -293,8 +315,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
-
-(C:\Users\Dennis\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ (C:\Users\Dennis\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count89
 \scratchdimen=\dimen105
@@ -343,67 +364,164 @@ Overfull \hbox (0.6296pt too wide) in paragraph at lines 34--34
 []\OT1/cmr/bx/n/14.4 a.) Anal-yse von typ-is-chem Net-zw-erkverkehr 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 41.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 41.
+<laborergebnisse/screenshots/a_1.png, id=18, 1512.65125pt x 59.22125pt>
+File: laborergebnisse/screenshots/a_1.png Graphic file (type png)
 
-Overfull \hbox (11.08275pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/n/10 Beschreiben Sie den Un-ter-schied zwis-chen dem FTP und Tel-net
- Pro-tokoll bezuglich
+<use laborergebnisse/screenshots/a_1.png>
+Package pdftex.def Info: laborergebnisse/screenshots/a_1.png used on input line
+ 41.
+(pdftex.def)             Requested size: 431.25pt x 16.88364pt.
+
+Overfull \hbox (86.25pt too wide) in paragraph at lines 41--42
+ [][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 51.
+<laborergebnisse/screenshots/a_2-0.png, id=19, 582.175pt x 83.31125pt>
+File: laborergebnisse/screenshots/a_2-0.png Graphic file (type png)
+
+<use laborergebnisse/screenshots/a_2-0.png>
+Package pdftex.def Info: laborergebnisse/screenshots/a_2-0.png used on input li
+ne 56.
+(pdftex.def)             Requested size: 431.25pt x 61.71417pt.
+
+Overfull \hbox (86.25pt too wide) in paragraph at lines 56--57
+ [][] 
+ []
+
+<laborergebnisse/screenshots/a_2-1.png, id=20, 594.22pt x 185.69376pt>
+File: laborergebnisse/screenshots/a_2-1.png Graphic file (type png)
+
+<use laborergebnisse/screenshots/a_2-1.png>
+Package pdftex.def Info: laborergebnisse/screenshots/a_2-1.png used on input li
+ne 63.
+(pdftex.def)             Requested size: 431.25pt x 134.77045pt.
+
+Overfull \hbox (86.25pt too wide) in paragraph at lines 63--64
+ [][] 
+ []
+
+<laborergebnisse/screenshots/a_2-2.png, id=21, 1365.1pt x 136.51pt>
+File: laborergebnisse/screenshots/a_2-2.png Graphic file (type png)
+
+<use laborergebnisse/screenshots/a_2-2.png>
+Package pdftex.def Info: laborergebnisse/screenshots/a_2-2.png used on input li
+ne 70.
+(pdftex.def)             Requested size: 431.25pt x 43.12376pt.
+
+Overfull \hbox (86.25pt too wide) in paragraph at lines 70--71
+ [][] 
  []
 
 [3
 
-] [4]
+ <C:/Users/Dennis/Documents/sniffing-protocoll/laborergebnisse/screenshots/a_1.
+png> <C:/Users/Dennis/Documents/sniffing-protocoll/laborergebnisse/screenshots/
+a_2-0.png>]
+<laborergebnisse/screenshots/a_3.png, id=26, 1405.25pt x 305.14pt>
+File: laborergebnisse/screenshots/a_3.png Graphic file (type png)
+
+<use laborergebnisse/screenshots/a_3.png>
+Package pdftex.def Info: laborergebnisse/screenshots/a_3.png used on input line
+ 83.
+(pdftex.def)             Requested size: 431.25pt x 93.64258pt.
+
+Overfull \hbox (86.25pt too wide) in paragraph at lines 83--84
+ [][] 
+ []
+
+[4 <C:/Users/Dennis/Documents/sniffing-protocoll/laborergebnisse/screenshots/a_
+2-1.png> <C:/Users/Dennis/Documents/sniffing-protocoll/laborergebnisse/screensh
+ots/a_2-2.png> <C:/Users/Dennis/Documents/sniffing-protocoll/laborergebnisse/sc
+reenshots/a_3.png>]
+<laborergebnisse/screenshots/a_4.png, id=30, 1515.6625pt x 873.2625pt>
+File: laborergebnisse/screenshots/a_4.png Graphic file (type png)
+
+<use laborergebnisse/screenshots/a_4.png>
+Package pdftex.def Info: laborergebnisse/screenshots/a_4.png used on input line
+ 94.
+(pdftex.def)             Requested size: 431.25pt x 248.456pt.
+
+Overfull \hbox (86.25pt too wide) in paragraph at lines 94--95
+ [][] 
+ []
+
+[5 <C:/Users/Dennis/Documents/sniffing-protocoll/laborergebnisse/screenshots/a_
+4.png>]
+<laborergebnisse/screenshots/b_1.png, id=34, 1620.0525pt x 970.62625pt>
+File: laborergebnisse/screenshots/b_1.png Graphic file (type png)
+
+<use laborergebnisse/screenshots/b_1.png>
+Package pdftex.def Info: laborergebnisse/screenshots/b_1.png used on input line
+ 107.
+(pdftex.def)             Requested size: 431.25pt x 258.36995pt.
+
+Overfull \hbox (86.25pt too wide) in paragraph at lines 107--108
+ [][] 
+ []
+
+[6 <C:/Users/Dennis/Documents/sniffing-protocoll/laborergebnisse/screenshots/b_
+1.png>] [7]
+Overfull \hbox (11.08275pt too wide) in paragraph at lines 119--120
+\OT1/cmr/m/n/10 Beschreiben Sie den Un-ter-schied zwis-chen dem FTP und Tel-net
+ Pro-tokoll bezuglich
+ []
+
+[8]
 Chapter 4.
 
-Overfull \hbox (4.63023pt too wide) in paragraph at lines 70--71
+Overfull \hbox (4.63023pt too wide) in paragraph at lines 133--134
 \OT1/cmr/m/n/10 Daten-pakete. Hubs ar-beiten auf der Bitue-ber-tra-gungss-chich
 t (Schicht
  []
 
 
-Overfull \hbox (10.3338pt too wide) in paragraph at lines 76--79
+Overfull \hbox (10.3338pt too wide) in paragraph at lines 139--142
 \OT1/cmr/m/n/10 schied, das ein Switch di-rekte Verbindun-gen zwis-chen den ang
 eschlosse-
  []
 
 
-Overfull \hbox (2.47278pt too wide) in paragraph at lines 76--79
+Overfull \hbox (2.47278pt too wide) in paragraph at lines 139--142
 \OT1/cmr/m/n/10 Emp-faengern zu-rueck kom-men, dann merkt sich der Switch die M
 AC-
  []
 
 
-Overfull \hbox (18.63942pt too wide) in paragraph at lines 76--79
+Overfull \hbox (18.63942pt too wide) in paragraph at lines 139--142
 \OT1/cmr/m/n/10 zwei Hosts, die volle Band-bre-ite der Ende-zu-Ende-Netzwerk-Ve
 rbindung
  []
 
-[5
+[9
 
-] (C:\Users\Dennis\Documents\sniffing-protocoll\template_Report.aux) ) 
+] (C:\Users\Dennis\Documents\sniffing-protocoll\template_Report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1365 strings out of 493921
- 17394 string characters out of 3144874
- 68971 words of memory out of 3000000
- 4685 multiletter control sequences out of 15000+200000
+ 1403 strings out of 493921
+ 18658 string characters out of 3144874
+ 69031 words of memory out of 3000000
+ 4715 multiletter control sequences out of 15000+200000
  8500 words of font info for 30 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,8n,19p,524b,215s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on template_Report.pdf (6 pages, 262870 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on template_Report.pdf (10 pages, 677495 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
